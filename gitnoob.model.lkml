@@ -5,7 +5,7 @@ include: "*.view"
 
 datagroup: gitnoob_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log  g;;
-  max_cache_age: "1 hour"
+  max_cache_age: "2 hours"
 }
 
 persist_with: gitnoob_default_datagroup
